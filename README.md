@@ -54,4 +54,10 @@ Esercizio:
 
 3 altrimenti:
     3.1 eseguiamo la 2 traccia
-    3.2 inizializziamo 2 variabili (una per l'utente e l'altro per il bot)
+    3.2 inizializziamo 2 variabili (una per l'utente e l'altro per il bot) e gli diamo come value un valore random da 1 a 6
+    3.3 ?se l'utente ha un numero maggiore del bot, allora
+        3.4 scriviamo che ha vinto l'utente con "punteggio" contro il bot con "punteggio"
+    4.3 ?se l'utente ha un numero minore del bot, allora
+        4.4 scriviamo che ha perso l'utente con "punteggio" contro il bot con "punteggio"
+    5.3 altrimenti
+        3.4 scriviamo che ha pareggiato l'utente con "punteggio" contro il bot con "punteggio"

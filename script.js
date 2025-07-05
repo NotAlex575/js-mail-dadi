@@ -33,7 +33,16 @@ if (scelta_esercizio == 1){
 //se la scelta_esercizio ha valore 2, allora eseguiamo la 2 traccia
 else if (scelta_esercizio == 2){
 
-    const User = 0;
-    const Bot = 0;
+    const User = Math.floor((Math.random() * 6) + 1);
+    const Bot = Math.floor((Math.random() * 6) + 1);
+    if (User > Bot){
+        console.log(`l'utente ha vinto con ${User} contro il bot che ha fatto ${Bot}`)
+    }
+    else if (User < Bot){
+        console.log(`l'utente ha perso con ${User} contro il bot che ha fatto ${Bot}`)
+    }
+    else{
+        console.log(`l'utente ha pareggiato con ${User} contro il bot che ha fatto ${Bot}`)
+    }
 
 }
