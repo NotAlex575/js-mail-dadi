@@ -23,7 +23,12 @@ if (scelta_esercizio == 1){
             trovato = true;
         }
     }
-    
+    if (trovato){
+        console.log("trovato! benvenuto!")
+    }
+    else{
+        console.log("non sei nella lista...")
+    }
 }
 //se la scelta_esercizio ha valore 2, allora eseguiamo la 2 traccia
 else if (scelta_esercizio == 2){

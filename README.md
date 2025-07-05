@@ -47,7 +47,10 @@ Esercizio:
             2.4.2 settiamo trovato true
         fine if
     fine for
-    2.5
+    2.5 ?se trovato è true, allora
+        2.5.1 scriviamo che è nella lista
+    2.6 altrimenti
+        2.6.1 scriviamo che non è nella lista
 
 3 altrimenti:
     3.1 eseguiamo la 2 traccia
