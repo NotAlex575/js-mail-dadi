@@ -33,10 +33,15 @@ Esercizio:
 
 1 Siccome questo esercizio è composto da 2 tracce, facciamo prima scegliere all'utente
   quale esercizio fare:
+2 mettiamo in input la scelta della traccia (1 -> esercizio mail, 2 -> esercizio dadi, 
+  altro valore -> arresto dell'esecuzione del programma)
 
 2 ?se vuole fare l'esercizio della mail, allora
     2.1 eseguiamo la 1 traccia
     2.2 creiamo una lista di email di invitati ad una festa
+    2.3 inseriamo in input l'email da vedere se ci sta nella lista
+    2.4 creiamo un for che cicli l'array con un counter che parte da 0 e finisce fino a 
+    array.lenght-1
 
 3 altrimenti:
     3.1 eseguiamo la 2 traccia
