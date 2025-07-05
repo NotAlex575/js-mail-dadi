@@ -15,12 +15,15 @@ if (scelta_esercizio == 1){
     ];
     //chiediamo la email e vediamo se si trova nella lista
     const check_email = prompt("scrivi qui una email e vediamo se si trova nella lista");
+    //variabile booleana che ci consente di sapere se il valore di check_email si trova nell'array
+    const trovato = false;
     //cerchiamo la email nella lista invitati_email
     for(const i = 0; i < invitati_Email.length; i++){
-
-
-
+        if(check_email == invitati_Email[i]){
+            trovato = true;
+        }
     }
+    
 }
 //se la scelta_esercizio ha valore 2, allora eseguiamo la 2 traccia
 else if (scelta_esercizio == 2){

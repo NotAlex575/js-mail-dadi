@@ -40,8 +40,14 @@ Esercizio:
     2.1 eseguiamo la 1 traccia
     2.2 creiamo una lista di email di invitati ad una festa
     2.3 inseriamo in input l'email da vedere se ci sta nella lista
-    2.4 creiamo un for che cicli l'array con un counter che parte da 0 e finisce fino a 
-    array.lenght-1
+    2.4 creiamo una variabile booleana "trovato" che partirà false e 
+        ci servirà a vedere se l'input inserito è nella lista
+    2.4 creiamo un for che cicli l'array con un counter che parte da 0 e finisce fino a array.lenght-1
+        2.4.1 ?se l'input che abbiamo messo prima si trova nella lista, allora
+            2.4.2 settiamo trovato true
+        fine if
+    fine for
+    2.5
 
 3 altrimenti:
     3.1 eseguiamo la 2 traccia
