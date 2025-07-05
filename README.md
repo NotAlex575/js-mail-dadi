@@ -28,3 +28,16 @@ javascript non fa nulla da solo, dobbiamo dirgli noi cosa vogliamo fare,
 si ma noi cosa vogliamo fare?,
 torniamo a scrivere in italiano,
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+Esercizio:
+
+1 Siccome questo esercizio è composto da 2 tracce, facciamo prima scegliere all'utente
+  quale esercizio fare:
+
+2 ?se vuole fare l'esercizio della mail, allora
+    2.1 eseguiamo la 1 traccia
+    2.2 creiamo una lista di email di invitati ad una festa
+
+3 altrimenti:
+    3.1 eseguiamo la 2 traccia
+    3.2 inizializziamo 2 variabili (una per l'utente e l'altro per il bot)
